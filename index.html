@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-brands fa-raspberry-pi" id="nav_logo"> macaron</i>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="cardapio.html">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="testimonials.html">Avaliações</a>
+          </li>
+        </ul>
+        
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="cardapio.html">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="testimonials.html">Avaliações</a>
+          </li>
+        </ul>
+
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            O sabor que vai até
+            <span>você</span>
+          </h1>
+          <p class="description">
+            Macarons fresquinhos e deliciosos, feitos com amor e carinho para
+            você. Venha experimentar o melhor da confeitaria francesa!
+          </p>
+          <p>Faça o seu pedido por telefone ou whatsapp</p>
+
+          <div id="cta_buttons">
+            <a href="tel:+5547984194650" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (47) 98419-4650
+            </a>
+            
+          </div>
+          <div class="social-media-buttons">
+            <a href="tel:+5547984194650">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div id="banner">
+          <img src="images/macaronlimaotelasf.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos deliciosos macarons</h3>
+
+        <div id="dishes">
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="images/limaol.png" class="dish-image" alt="" />
+            <h3 class="dish-title">Macaron de Limão</h3>
+            <span class="dish-description">
+              Macaron de limão com recheio de limão siciliano.
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(60+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>R$8,00 un</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="images/chocolatec.png" class="dish-image" alt="" />
+            <h3 class="dish-title">Macaron de Chocolate</h3>
+            <span class="dish-description">
+              Macaron de chocolate com recheio de chocolate meio amargo.
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(95+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>R$8,00 un</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="images/morangom.png" class="dish-image" alt="" />
+            <h3 class="dish-title">Macaron de Morango</h3>
+            <span class="dish-description">
+              Macaron de morango com recheio de morango.
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(95+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>R$8,00 un</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact">
+        <h2 class="section-title">Entre em Contato Conosco</h2>
+        <h3 class="section-subtitle">Envie sua mensagem!</h3>
+        <form action="processar_contato.php" method="POST" id="contact-form">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-default">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    
+
+      <section id="testimonials">
+        <img src="images/chefm.png" id="testimonials_chef" alt="" />
+
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">
+            O que os nossos clientes falam sobre nós
+          </h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="images/marcos.jpeg" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p>
+                  Marcos Silva
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Amei o macaron de limão! O sabor é incrível e a textura é
+                  perfeita. Com certeza vou pedir mais vezes!"
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="images/lucas.jpeg" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p>
+                  Lucas Oliveira
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Os macarons são simplesmente divinos! O de chocolate é o meu
+                  favorito. Recomendo a todos!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-default">
+            <a href="testimonials.html">Ver mais avaliações</a>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="images/wave.svg" alt="" />
+      <div id="footer_items">
+        <span id="copyright"> &copy 2025 Thamirys Macêdo </span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
